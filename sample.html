@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Sample Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: white;
+            padding: 20px 0; 
+            text-align: center;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+            background: #e8491d;
+            text-align: center;
+        }
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #35424a;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="https://www.google.com/">Home</a></li>
+            <li><a href="https://gemini.google.com/app?utm_source=app_launcher&utm_medium=owned&utm_campaign=base_all">Gemini</a></li>
+            <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">G.Mail</a></li>
+            <li><a href="https://contacts.google.com/">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <section id="home">
+        <h2>Home</h2>
+        <p>This is a sample paragraph. Replace it with your content.</p>
+        <button onclick="alert('Button clicked!')">Click Me</button>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about what we do.</p>
+    </section>
+
+    <!-- Form Example -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+
+    <!-- Simple JavaScript -->
+    <script>
+        console.log("Page loaded successfully!");
+    </script>
+</body>
+</html>
